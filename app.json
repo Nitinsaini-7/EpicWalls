@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "appp",
-    "slug": "appp",
+    "name": "EpicWalls",
+    "slug": "EpicWalls",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -19,7 +19,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.nitin_saini.appp"
     },
     "web": {
       "bundler": "metro",
@@ -31,6 +32,14 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "20f04564-3bc2-46d7-a0d0-01d4830740ee"
+      }
     }
   }
 }
